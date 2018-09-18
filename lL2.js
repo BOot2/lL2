@@ -14,7 +14,7 @@ client.on('ready', () => {
   console.log('---------------')
 });
 
-const prefix = "ne"
+const prefix = "vv"
 client.on('message', async msg => {
 	if (msg.author.bot) return undefined;
 	
@@ -315,7 +315,7 @@ client.on('message', function(message) {
 
 client.on('message', async message => {
             if(!message.channel.guild) return;
-             if (message.content.startsWith("ne")) {
+             if (message.content.startsWith("vv")) {
 let args = message.content.split(' ').slice(1).join(' ');
             let sigMessage = await args;
             
